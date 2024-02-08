@@ -19,3 +19,14 @@ spec:
   dependsOn:
     - Component:front-test
     - Resource:bd-postgres
+
+  ---
+  apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: bd-postgres
+  description: Base de datos PostgreSQL de test.
+spec:
+  type: bd-postgres
+  owner: sebastianacevedo91
+  system: test
