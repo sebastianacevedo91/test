@@ -8,6 +8,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
+  owner: sebastianacevedo91
   provides:
     - apiVersion: backstage.io/v1alpha1
       kind: API
