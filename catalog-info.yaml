@@ -19,8 +19,7 @@ spec:
   dependsOn:
     - Component:front-test
     - Resource:bd-postgres
-
-  ---
+---
   apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
